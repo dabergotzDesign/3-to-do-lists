@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: dimgray;
+}
+
+
+.App{
+  text-align: center;
+  display: block;
+}
+
+header{
+    background-color: lightgreen;
+    color: whitesmoke;
+    padding: .5rem;
+    font-size: 1.1rem;
+    margin: 0 40%;
+    margin-top: 5%;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 2px 4px 4px #111;
+}
+
+.taskContainer{
+  padding: 1rem;
+  background-color: lightgray;
+  margin:0 40%;
+  margin-bottom: 16px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 2px 4px 4px #111;
+}
+
+.addTask,
+.taskSubmit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addTask{
+  border-bottom: 1px solid grey;
+}
+
+.taskSubmitHidden{
+  display: none;
+}
+
+.taskName,
+.taskDate{
+  margin: 8px;
+}
+
+#task,
+#date{
+  border-radius: 10px;
+  border: none;
+  padding: 4px;
+  width: 250px;
+
+  font-size: 14px;
+}
+
+.submit{
+  margin: 8px;
+  padding: 8px;
+  background-color: lightgreen;
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+  font-size: 12px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.submit:hover{
+  cursor: pointer;
+}
+
+.submit:active{
+  cursor: pointer;
+  background-color: green;
+}
+
+.taskBtn{
+  margin: 16px;
+  padding: 4px 8px;  
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: black;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 80%;
+}
+
+.icon{
+  color: lightgreen;
+}
+
+.taskWrapper{
+  display: block;
+  margin: 16px;
+  padding: 4px;
+  background-color: whitesmoke;
+  border: 2px solid grey;
+  border-radius: 10px;
+
+  font-weight: 500;
+}
+
+li{
+  list-style: none;
+}
+
+.taskWrapper span{
+  font-size: 24px;
+  border: 2px solid #111;
+  border-radius: 80%;
+  padding: 0 8px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.taskWrapper span:hover{
+  cursor: pointer;
+}
+
+.taskWrapper span:active{
+  color:red;
+  border: red 2px solid;
+  background-color: grey;
+}
+
+.task,
+.date{
+  padding: 4px;
+  margin: 8px;
+}
+
+.task{
+  font-size: 1.1rem;
+}
