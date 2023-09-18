@@ -2,7 +2,7 @@ Notes by Author, Dennis Dabergotz:
 
 This To-Do-List in React was made after the Angular one.
 
-No tutorial was used for, references came from the react docs and research.
+No tutorial was used, references came from the react docs and research.
 
 --
 
